@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" conntent="width=device-width, initial-scale=1.0">
+    <title>KoloCare</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--FIRST SECTION-INTRODUCTION-->
+    <section class="section-a">
+        <div class="navbar-flex">
+            <div><img src="Images/logo.svg"></div>
+            <div class="navbar-flex donny">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">Services</a></div>
+                <div><a href="#">Pricing</a></div>
+                <div><a href="#">Contact us</a></div>
+                <div class="butt"><a type="button">Login</a></div>
+                <div class="butt"><a type="button">Sign Up</a></div>
+                
+            </div>
+
+        </div>
+        <div class="navbar mobile-menu" id="
+        navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><button type="">Login</button></li>
+                <li><button type="">Sign Up</button></li>
+                
+            </ul>
+        </div>
+        <div class="center-text">
+            <img src="Images/Group 18.svg">
+            <h1>Keep yourself <span>healthy</span>,and your wallet <br><span>happy</span></h1>
+            <p> Pay and Save for your medical bills with just one click.</p>
+            <a href="#">Start Saving</a>
+        </div>
+        </section>
+        <!--Services we offer-->
+        <section class="section-b">
+            <h3 class="heading">Services</h3>
+            <div class="services">
+
+                <div class="services-col">
+                    <img src="./Images/Group 19.svg">
+                    <p>Pay your emergency medical bills either installmentally or at once</p>
+                </div>
+                <div class="services-col">
+                    <img src="./Images/Group 20.svg" alt="">
+                    <p>Save for future. Don't wait for expected to<br> become expected.</p>
+                </div>
+                <div class="services-col">
+                    <img src="./Images/Group 21.svg" alt="">
+                    <p>Earn while contributing towards a healthy family for you and your family</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--Pricing plans-->
+        <section class="section-c">
+            <h3 class="heading">Pricing</h3>
+            <span class="heading">Choose what's best for you</span>
+            <div class="pricing">
+                <div class="plans">
+                    <h2>Individual</h2>
+                    <span>Build a personal health care net </span>
+                    <p><img src="./Images/check-circle.svg" alt="">Set a target for your savings</p>
+                    <p><img src="./Images/check-circle.svg" alt="">Save 2% on your earnings monthly</p>
+                    <p><img src="./Images/check-circle.svg" alt="">Invest in healthcare with as low as 10$</p>
+                    <p><img src="./Images/check-circle.svg" alt="">Pay medical bills at 3 months installments or at once
+                    </p>
+                    <p><img src="./Images/check-circle.svg" alt="">set a target for your savings</p>
+                </div>
+                <div class="plans">
+                    <h2>Family</h2>
+                    <span>Fund Your wallet for a family of 4 and get 10% discount on your medical bill</span>
+                    <p><img src="./Images/check-circle.svg" alt="">Set a target for your savings</p>
+                    <p><img src="./Images/check-circle.svg" alt="">Save 5% of your earnings monthly</p>
+                    <p><img src="./Images/check-circle.svg" alt="">Invest in health care with as low as 10$</p>
+                    <p><img src="./Images/check-circle.svg" alt="">Get 10% discount on medical bill payment</p>
+                </div>
+            </div>
+        </section>
+        <!--Contact us-->
+        <section class="section-d">
+            <div class="contact-us">
+                <div class="cta">
+                    <h2 class="heading quest-heading">Do you have any questions?</h2>
+                    <div class="arrow-box">
+                        <a href="#">Send us a message</a>
+                        <label for="name" aria-label="name">
+                            <img src="./Images/Arrow 1.svg" class="arrow-img" alt="">
+                        </label>
+                    </div>
+                </div>
+                <div class="frm-group">
+                    <form action="">
+                        <input type="text" placeholder="Name" id="name" class="form-input" aria-label="Full name">
+                        <input type="email" placeholder="E-mail" class="form-input" aria-label="Email">
+                        <textarea name="Message" id="" cols="30" class="form-input" rows="10" aria-label="Message"></textarea>
+                        <button class="form-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="foot">
+            <div class="footer">
+                <div class="join-us">
+                    <h2>JOIN THE <img src="Images/logo.svg"> FAMILY </h2>
+                    <p> In Kolocare we believe a healthy lifestyle leads to wealthy living. </p>
+                </div>
+                <div class="media-links">
+                    <img src="Images/Frame 14.svg">
+                </div>
+            </div>
+        </footer>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("navbar");
+              if (x.className === "navbar") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar";
+              }
+            }
+            </script>
+</body>
+
+</html>
